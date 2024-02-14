@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainactivity"
+    style="@style/SCREEN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spinner"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:minHeight="48dp"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck" />-->
+
+
+    <TextView
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:text="DIET TRACKER"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+    <LinearLayout>
+
+        <ImageButton
+            android:id="@+id/switch_mode"
+            style="@style/imglight"
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_round_light_mode_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/night"
+            style="@style/imgnight"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_round_dark_mode_24"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_round_light_mode_24"
+            />
+
+        <Switch
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:checked="false"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_round_dark_mode_24"/>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/CalorieChart"
+        style="@style/BUTTON"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Calorie\nChart"
+        android:textSize="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/CalorieTrack"
+        style="@style/BUTTON"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="10dp"
+        android:text="Calorie\nTrack"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/BodyFat"
+        style="@style/BUTTON"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="10dp"
+        android:text="Body\nFat"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/BMI"
+        style="@style/BUTTON"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-470dp"
+        android:text="BMI"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/CheatMeal"
+        style="@style/BUTTON"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"
+        android:text="Calorie\nCounsel"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Custom"
+        style="@style/BUTTON"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"
+        android:text="Custom\nDiet"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foodlogo"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TEXT"
+        android:text="Developed By"
+        android:layout_marginLeft="160dp"
+        />
+
+    <LinearLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="PRIYANSHU NIRANJAN"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/priyanshu"
+        android:textColor="#4BC139"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="SUDHANSHU KUMAR"
+        android:id="@+id/sudhanshu"
+        android:textColor="#4BC139"
+
+        />
+    </LinearLayout>
+
+
+</GridLayout>

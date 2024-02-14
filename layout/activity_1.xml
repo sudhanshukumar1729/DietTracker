@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity1"
+    style="@style/SCREEN"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Chart"
+        android:layout_marginLeft="120dp"
+        android:textColor="#7E2CA1"
+        android:textSize="25dp"
+        style="@style/TEXT"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        style="@style/TEXT"
+        android:text="There are enough confusions about what to eat and what not to eat and on top of that most of us fall prey to the bewildering information available on internet regarding calorie count of food items. So, here it is. Whether you are clean eater or a calorie watcher, unless you have consulted a nutritionist or dietician, it is difficult for anyone to maintain a stringent food habit with the exact calorie count."
+
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="@style/TEXT"
+        android:text="Reaching calorie aims may seem a little tough, but with this Indian food items with calorie chart, we have tried to make it a little easier for you while you look out to develop a healthy lifestyle with a clean eating habit. This Indian food chart with calorie count has been designed by Gympik’s diet expert and Nutritionist, Sujetha Shetty to help the promising health enthusiasts and of course, normal individuals at a large, to make a sustainable diet plan while appending flexibility in meals and kick out the monotony of salad diet and those torturing fad diets." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="262dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="@style/TEXT"
+        android:text="Here is a list of foods of different category, groups etc. for you to plan and maintain a healthy diet plan:" />
+
+
+    <Button
+        android:id="@+id/calorie_chart"
+        style="@style/BUTTON"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:onClick="download"
+        android:text="Calorie Chart"
+        android:textColor="@color/white"
+        tools:ignore="onClick" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/foodlogo" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdf_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
