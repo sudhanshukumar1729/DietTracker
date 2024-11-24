@@ -1,2 +1,11 @@
 Android project for some contest and grading 
+![photo_1_2024-11-24_14-40-52](https://github.com/user-attachments/assets/7d3550e7-d309-427e-9aca-5b95416b6eaa)
+![photo_2_2024-11-24_14-40-52](https://github.com/user-attachments/assets/4432db79-e648-4d89-bee7-3aa8e6a7ec00)
+![photo_3_2024-11-24_14-40-52](https://github.com/user-attachments/assets/7e8d970b-fe30-4e6a-a651-53390b22bdc4)
+![photo_4_2024-11-24_14-40-52](https://github.com/user-attachments/assets/54cb57ad-1aae-4877-b489-4530e919e1fa)
+![photo_5_2024-11-24_14-40-52](https://github.com/user-attachments/assets/5913fa35-10b0-4b1d-9ec3-9229650fca5d)
 ![photo_6_2024-11-24_14-40-52](https://github.com/user-attachments/assets/0214750b-447b-4de1-89a3-4c9f0e45032b)
+![photo_7_2024-11-24_14-40-52](https://github.com/user-attachments/assets/bf159c8a-d240-4e3e-b03f-212f95f6fa40)
+![photo_8_2024-11-24_14-40-52](https://github.com/user-attachments/assets/6f71278c-31ce-41da-b9c2-87e1f0042523)
+![photo_9_2024-11-24_14-40-52](https://github.com/user-attachments/assets/e6783eb8-3fe8-4010-8258-d53326aa0e98)
+![photo_10_2024-11-24_14-40-52](https://github.com/user-attachments/assets/7f741707-cb31-4ff3-9020-ff4eb25e9711)
